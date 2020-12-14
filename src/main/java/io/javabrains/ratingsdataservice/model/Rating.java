@@ -2,6 +2,9 @@ package io.javabrains.ratingsdataservice.model;
 
 public class Rating {
 
+    public Rating() {
+    }
+
     private String movieId;
     private int rating;
 
@@ -27,6 +30,8 @@ public class Rating {
         this.rating = rating;
 
     }
+
+
 
 
 }
